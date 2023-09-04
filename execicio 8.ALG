@@ -26,21 +26,20 @@ Inicio
    vermelho <- 40.00
 
    se (cor = verde)entao
-      escreval("compra efetuada disco verde 10.00")
+      escreva("compra efetuada disco ",verde)
    fimse
+
    se (cor = azul)entao
-      escreval("compra efetuada disco azul 20.00")
+      escreva("compra efetuada disco azul ",azul)
    fimse
+
    se (cor = amarelo)entao
-      escreval("compra efetuada disco amarelo 30.00")
-   fimse
+      escreva("compra efetuada disco amarelo ",amarelo)
+fimse
+
    se (cor = vermelho)entao
-      escreval("compra efetuada disco vermelho 40.00")
+      escreva("compra efetuada disco vermelho ",vermelho)
    fimse
    
- //mostrando dados para usuário.
-   escreval("valor da compra", verde)
-   escreval("valor da compra", azul)
-   escreval("valor da compra", amarelo)
-   escreval("valor da compra", vermelho)
+ 
 Fimalgoritmo
