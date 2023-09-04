@@ -1,20 +1,20 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 01/09/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
   operacao: Caractere
    A : real
    B : real
    resultado: Real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-//solicitando dados para usuário.
-   Escreva("Digite o código da operação (+, -, *, /): ")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+//solicitando dados para usuÃ¡rio.
+   Escreva("Digite o cÃ³digo da operaÃ§Ã£o (+, -, *, /): ")
    Leia(operacao)
 
    Escreva("Digite o valor de A: ")
@@ -38,16 +38,18 @@ Inicio
       Se B <> 0 Entao
          resultado <- A / B
       Senao
-         Escreva("Divisão por zero não é permitida.")
+         Escreva("DivisÃ£o por zero nÃ£o Ã© permitida.")
       FimSe
    Senao
-      Escreva("Operação inválida.")
+      Escreva("OperaÃ§Ã£o invÃ¡lida.")
    FimSe
 
-      Escreval("Resultado da operação: ", resultado)
+      Escreval("Resultado da operaÃ§Ã£o: ", resultado)
    fimse
+fimse
+fimse
    //mostrando dados para usuario.
-   Escreval("Resultado da operação: ", resultado)
+   Escreval("Resultado da operaÃ§Ã£o: ", resultado)
 Fimalgoritmo
 
 
