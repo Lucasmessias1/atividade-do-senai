@@ -35,7 +35,7 @@ Escreva("Digite o número de litros vendidos: ")
          valorTotal <- litrosVendidos * (precoAlcool - (precoAlcool * 0.04))
       FimSe
 fimse
-   Se tipoCombustivel = "G" OU tipoCombustivel = "g" Entao
+   Se (tipoCombustivel = "G") OU (tipoCombustivel = "g") Entao
       Se litrosVendidos <= 25 Entao
          valorTotal <- litrosVendidos * (precoGasolina - (precoGasolina * 0.03))
       Senao
