@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+lgoritmo "semnome"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Antonio Carlos Nicolodi 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
@@ -10,7 +10,7 @@ Var
    tip: Caractere
    Desc : real
    Valor : real
-   gasolina : real
+   
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
     Escreva ("Digite a quantidade de litros vendidos: ")
@@ -21,7 +21,7 @@ Inicio
     Leia (Tip)
     Limpatela
 
-   se (Tip = "alcool") entao
+   se (Tip = "a") ou (tip = "A")entao
       Valor <- litros*3,79
 
       se(litros<=25) entao
@@ -32,7 +32,7 @@ Inicio
          escreval("total da compra: ", Valor * Desc )
       fimse
    senao
-      se (tip = gasolina) entao
+      se (tip = "g") ou (tip = "G")entao
          Valor <- litros*6,59
          se (litros <=25) entao
             Desc <- 97/100
