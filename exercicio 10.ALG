@@ -10,7 +10,7 @@ Var
    tip: Caractere
    Desc : real
    Valor : real
-
+   gasolina : real
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
     Escreva ("Digite a quantidade de litros vendidos: ")
