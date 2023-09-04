@@ -6,43 +6,47 @@ Algoritmo "semnome"
 // Data atual  : 01/09/2023
 Var
 // Seção de Declarações das variáveis 
-litrosVendidos: Real
-tipoCombustivel: Caractere
-precoGasolina : real
-precoAlcool : real
-valorTotal: Real
+   litros: Real
+   tip: Caractere
+   Desc : real
+   Valor : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-//solicitando dados para usuário.
-Escreva("Digite o número de litros vendidos: ")
-   Leia(litrosVendidos)
+// Seção de Comandos, procedimento, funções, operadores, etc...
+    Escreva ("Digite a quantidade de litros vendidos: ")
+    Leia(Litros)
+    Limpatela
+    
+    Escreva ("Digite o tipo de combustivel: ")
+    Leia (Tip)
+    Limpatela
 
-   Escreva("Digite o tipo de combustível (A-álcool, G-gasolina): ")
-   Leia(tipoCombustivel)
+   se (Tip = "alcool") entao
+      Valor <- litros*3,79
+
+      se(litros<=25) entao
+         Desc <- 98/100
+         escreval("total da compra: ", Valor * Desc)
+      senao
+         Desc <- 96/100
+         escreval("total da compra: ", Valor * Desc )
+      fimse
+   senao
+      se (tip = gasolina) entao
+         Valor <- litros*6,59
+         se (litros <=25) entao
+            Desc <- 97/100
+            escreval("total da compra: ", Valor * Desc )
+         senao
+            Desc <- 95/100
+            escreval("total da compra: ", Valor * Desc )
+         fimse
+      fimse
+   fimse
+
+
    
-   limpatela
+
    
-//preço da gasolina e do alcool
-   precoGasolina <- 6.59
-   precoAlcool <- 3.79
-   valorTotal <- 0
-// calculando desconto
-   Se (tipoCombustivel = "A") OU (tipoCombustivel = "a") Entao
-      Se litrosVendidos <= 25 Entao
-         valorTotal <- litrosVendidos * (precoAlcool - (precoAlcool * 0.02))
-      Senao
-         valorTotal <- litrosVendidos * (precoAlcool - (precoAlcool * 0.04))
-      FimSe
-fimse
-   Se (tipoCombustivel = "G") OU (tipoCombustivel = "g") Entao
-      Se litrosVendidos <= 25 Entao
-         valorTotal <- litrosVendidos * (precoGasolina - (precoGasolina * 0.03))
-      Senao
-         valorTotal <- litrosVendidos * (precoGasolina - (precoGasolina * 0.05))
-      FimSe
-   FimSe
- //mostrando dados para usuário
-   Escreva("Valor a ser pago pelo cliente: R$ ", valorTotal)
 
 Fimalgoritmo
