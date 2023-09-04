@@ -1,11 +1,11 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 01/09/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    cor : caracter
    verde : real
    azul : real
@@ -13,12 +13,12 @@ Var
    vermelho : real
    total : real
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreval("digite a cor do cd: ")
    leia(cor)
 
 
-   //preço dos cd.
+   //preÃ§o dos cd.
 
    verde <- 10.00
    azul <- 20.00
@@ -26,19 +26,19 @@ Inicio
    vermelho <- 40.00
 
    se (cor = verde)entao
-      escreval("compra efetuada")
+      escreval("compra efetuada disco verde 10.00")
    fimse
    se (cor = azul)entao
-      escreval("compra efetuada")
+      escreval("compra efetuada disco azul 20.00")
    fimse
    se (cor = amarelo)entao
-      escreval("compra efetuada")
+      escreval("compra efetuada disco amarelo 30.00")
    fimse
    se (cor = vermelho)entao
-      escreval("compra efetuada")
+      escreval("compra efetuada disco vermelho 40.00")
    fimse
    
- //mostrando dados para usuário.
+ //mostrando dados para usuÃ¡rio.
    escreval("valor da compra", verde)
    escreval("valor da compra", azul)
    escreval("valor da compra", amarelo)
