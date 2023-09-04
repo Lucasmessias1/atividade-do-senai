@@ -1,11 +1,11 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 01/09/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    nomeDoProduto : caracter
    quantidade : inteiro
    preco : real
@@ -15,23 +15,23 @@ Var
    desc_maior_10 : real
    desconto : real
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   //solicitando os dados para usuário.
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   //solicitando os dados para usuÃ¡rio.
    escreval("informe o nome do produto: ")
    leia(nomeDoProduto)
 
    escreval("informe a quantidade da compra: ")
    leia(quantidade)
 
-   escreval("informe o preço do produto: ")
+   escreval("informe o preÃ§o do produto: ")
    leia(preco)
 
   limpatela
    //scomando dos descontos
-   desc_menor_5 <- 0.002
-   desc_menor_10 <- 0.003
-   desc_maior_10 <- 0.005
-   //calculando compra do usuário.
+   desc_menor_5 <- 0.02
+   desc_menor_10 <- 0.03
+   desc_maior_10 <- 0.05
+   //calculando compra do usuÃ¡rio.
 
    total <- quantidade * preco
 
@@ -44,7 +44,7 @@ Inicio
    se (quantidade > 10)entao
       desconto <- total * desc_maior_10
     fimse
-   //mostrando dados para usuário.
+   //mostrando dados para usuÃ¡rio.
    escreval("nome do produto: ", nomeDoProduto)
    escreval("quantidade da compra: ", quantidade)
    escreval("total: ", total)
